@@ -55,7 +55,7 @@ h6{font-size:.8em}
 .hidden-mobile{visibility:hidden}
 .typing .txt{display:none}
 .typing *{display:inline-block}
-.typing div{position:absolute;bottom:0;transform:translateY(-10%);margin-left:.15em;border-radius:.2em;height:.6em;width:.08em;animation:kf-blink-caret 0.8s infinite}
+.typing div{transform:translateY(-10%);margin-left:.15em;border-radius:.2em;height:.6em;width:.08em;animation:kf-blink-caret 0.8s infinite}
 @media only screen and (min-width:900px){
     .hidden-mobile{visibility:visible}
     .hidden-desktop{visibility:hidden}
